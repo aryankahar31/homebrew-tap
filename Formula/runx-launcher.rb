@@ -5,21 +5,21 @@ class RunxLauncher < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/aryankahar31/runx/releases/download/v0.7.1/runx-macos-arm64.tar.gz"
-      sha256 "88434e1789373d1b83a2ee557c93edb1c367a093205907c9be983da8394f169c"
+      url "https://github.com/aryankahar31/runx/releases/download/v0.7.2/runx-macos-arm64.tar.gz"
+      sha256 "e93cf7f3af725b693f1559dbf3f75d938ece330aab9892ee3d3ece9c563bdce3"
     else
-      url "https://github.com/aryankahar31/runx/releases/download/v0.7.1/runx-macos-x64.tar.gz"
-      sha256 "28a3f804408c47fbcd1ad67ad8d144da27da9cf84ce4852d300fecbfa58f1152"
+      url "https://github.com/aryankahar31/runx/releases/download/v0.7.2/runx-macos-x64.tar.gz"
+      sha256 "921ee609805e98df9795b8bd743155ec93a9a4cd6cd8d2777a69442047bea0d7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/aryankahar31/runx/releases/download/v0.7.1/runx-linux-arm64.tar.gz"
-      sha256 "d4bab13c360ac0ccd2fbbe50f9d5b089700f5175ce0971ffab7faf768762d7a4"
+      url "https://github.com/aryankahar31/runx/releases/download/v0.7.2/runx-linux-arm64.tar.gz"
+      sha256 "2df9710ce5125faec2f5684a5733a5d52c6c04a280cb0874b25c3d9a304c7ec3"
     else
-      url "https://github.com/aryankahar31/runx/releases/download/v0.7.1/runx-linux-x64.tar.gz"
-      sha256 "ff9a6dcd8287ce588ec575854e4b22c65e518cdb153bd65b4c056aa8b8635c15"
+      url "https://github.com/aryankahar31/runx/releases/download/v0.7.2/runx-linux-x64.tar.gz"
+      sha256 "866482d1a2ad46db9d57f8c3aed7d5e98d685d9dfba655613847612f39ee65d3"
     end
   end
 
